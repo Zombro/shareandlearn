@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Nov  6 17:56:44 2018
 @author: kevzo
+basic markov chain algorithm
 """
 
 import re
