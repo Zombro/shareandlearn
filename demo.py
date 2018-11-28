@@ -11,8 +11,7 @@ from matplotlib import pyplot
 
 def scatter(i, j):
     x = np.linspace(-np.pi, np.pi, num=i)
-    y = np.array([np.sin(j*x) for j in range(j)]).sum(axis=0)
-    y = np.clip(y, -1, 1)
+    y = np.array([np.sin(j*x) for j in range(j)]).sum(axis=0).clip(-1, 1)
     pyplot.scatter(x, y, s=.2)
 
 
